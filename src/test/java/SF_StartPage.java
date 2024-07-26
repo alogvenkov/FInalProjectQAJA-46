@@ -62,6 +62,9 @@ public class SF_StartPage {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void program() {
@@ -97,6 +100,9 @@ public class SF_StartPage {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
     @Test
@@ -134,6 +140,9 @@ public class SF_StartPage {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void dataAnalytics() {
@@ -169,6 +178,9 @@ public class SF_StartPage {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
     @Test
@@ -206,6 +218,9 @@ public class SF_StartPage {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void higherEducation() {
@@ -241,6 +256,9 @@ public class SF_StartPage {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
     @Test
@@ -278,6 +296,9 @@ public class SF_StartPage {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void managment() {
@@ -313,6 +334,9 @@ public class SF_StartPage {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
     @Test
@@ -350,6 +374,9 @@ public class SF_StartPage {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void free() {
@@ -385,6 +412,9 @@ public class SF_StartPage {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
     @Test
@@ -423,6 +453,9 @@ public class SF_StartPage {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
 }

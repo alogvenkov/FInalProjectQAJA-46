@@ -34,6 +34,9 @@ public class FreeCours {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
 
     }
     @Test
@@ -59,6 +62,9 @@ public class FreeCours {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
 
     }
@@ -86,6 +92,9 @@ public class FreeCours {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
 
     }
     @Test
@@ -111,6 +120,9 @@ public class FreeCours {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void freeAnalitica() {
@@ -134,6 +146,9 @@ public class FreeCours {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
     @Test
@@ -159,6 +174,9 @@ public class FreeCours {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void freeProg() {
@@ -182,6 +200,9 @@ public class FreeCours {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
     @Test
@@ -207,6 +228,9 @@ public class FreeCours {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void freeTesting() {
@@ -230,6 +254,9 @@ public class FreeCours {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
     @Test
@@ -255,6 +282,9 @@ public class FreeCours {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void freeIi() {
@@ -278,6 +308,9 @@ public class FreeCours {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
     @Test
@@ -303,6 +336,9 @@ public class FreeCours {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        finally {
+            driver.quit();
+        }
     }
     @Test
     public void Xray() {
@@ -325,6 +361,9 @@ public class FreeCours {
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        finally {
+            driver.quit();
         }
     }
 }
