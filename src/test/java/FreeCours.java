@@ -306,7 +306,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-
         try {
             driver.get("https://skillfactory.ru/free-events");
             Thread.sleep(2000);
