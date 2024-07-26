@@ -2,9 +2,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.time.Duration;
-import java.util.Set;
+
 
 public class FreeCours {
     @Test
