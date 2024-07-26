@@ -1,3 +1,13 @@
+Тестирование проводилось в следующей тестовой среде:
+
+ОС: Windows 11, Браузер Google Chrome Версия 126.0.6478.185, Среда разработки: IntelliJ IDEA 2024.1 (Community Edition) Build #IC-241.14494.240, built on March 28, 2024
+
+ДЛЯ ЗАПУСКА ТЕСТОВ НУЖНО:
+1. В IntelliJ IDEA открыть проект: FInalProjectQAJA-46
+2. пройти по пути scr/test/java
+3. нажать правой кнопкой мыши на java и выбрать пункт "Run All Tests"
+
+
 В тестовом классе SF_StartPage тестируются обекты находящиеся на стартовой странице: https://skillfactory.ru/
 
 -openStartPage() -проверяет открытие стартовой страницы
