@@ -16,9 +16,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -45,9 +42,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -74,9 +68,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -103,9 +94,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -130,9 +118,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -157,9 +142,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -184,9 +166,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -211,9 +190,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -238,9 +214,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -265,9 +238,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -292,9 +262,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -319,9 +286,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
@@ -346,9 +310,6 @@ public class FreeCours {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/free-events");
