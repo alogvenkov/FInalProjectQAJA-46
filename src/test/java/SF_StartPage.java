@@ -19,8 +19,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
 
         driver.get("https://skillfactory.ru/");
         String title = driver.getTitle();
@@ -33,9 +31,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/");
@@ -72,9 +67,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/");
@@ -111,9 +103,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/");
@@ -150,9 +139,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/");
@@ -189,9 +175,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/");
@@ -228,10 +211,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
         try {
             driver.get("https://skillfactory.ru/");
             Thread.sleep(2000);
@@ -267,9 +246,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/");
@@ -306,10 +282,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
         try {
             driver.get("https://skillfactory.ru/");
             Thread.sleep(2000);
@@ -345,9 +317,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/");
@@ -384,9 +353,6 @@ public class SF_StartPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/");
@@ -422,9 +388,6 @@ public class SF_StartPage {
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
         try {
             driver.get("https://skillfactory.ru/");
