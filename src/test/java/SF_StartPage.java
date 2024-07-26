@@ -408,7 +408,6 @@ public class SF_StartPage {
             Actions actions = new Actions(driver);
             actions.moveToElement(forum).click().build().perform();
 
-
             Set<String> currentWindows = driver.getWindowHandles();
 
             String window2 = null;
